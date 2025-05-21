@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 3rem;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      animation: fadeInDown 1s ease;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      animation: fadeInUp 1s ease;
+    }
+    h2 {
+      color: #ffcc00;
+      border-bottom: 2px solid #ffcc00;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li {
+      background: rgba(0, 0, 0, 0.4);
+      margin-bottom: 0.8rem;
+      padding: 0.8rem;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    ul li:hover {
+      background: rgba(0, 0, 0, 0.6);
+    }
+    a {
+      color: #00d9ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #ccc;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ADITYA PATIL</h1>
+    <p>Full Stack Developer & UI/UX Designer</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I am a passionate full stack developer with expertise in creating elegant, scalable, and responsive web solutions. I focus on delivering high-performance, user-friendly websites.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript, TypeScript</li>
+      <li>React, Next.js, Vue.js</li>
+      <li>Node.js, Express, MongoDB</li>
+      <li>MySQL, Spring Boot</li>
+      <li>UI/UX Design with Figma & Adobe XD</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Task Manager App</strong> – A productivity tool to track tasks and deadlines using React and Firebase.</li> 
+      <li><strong>Personal Blog</strong> – Responsive blog site built with Spring Boot and MySQL. </li>
+      <li><strong>Weather Dashboard</strong> – A dynamic weather application using JavaScript and API integration.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: adityavpatil2001@gmail.com</p>
+    <p>Phone: 9765016870</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Aditya Patil. All rights reserved.</p>
+  </footer>
+</body>
+</html>
